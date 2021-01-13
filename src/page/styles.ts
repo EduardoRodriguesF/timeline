@@ -12,7 +12,7 @@ export const Timeline = styled.ul`
   li { 
     list-style-type: none;
     position: relative;
-    width: 4px;
+    width: 5px;
     padding-top: 50px;
     background: #000;
     color: #fff;
@@ -23,8 +23,8 @@ export const Timeline = styled.ul`
       left: 50%;
       bottom: 0;
       transform: translateX(-50%);
-      width: 10px;
-      height: 10px;
+      width: 12px;
+      height: 12px;
       border-radius: 15px;
       background: inherit;
     }
@@ -35,14 +35,33 @@ export const Timeline = styled.ul`
       justify-content: center;
       position: relative; 
       width: 400px;
-      margin: 0 4px;
       padding: 15px 32px;
       background: #888;
+
+      &::before {
+        content: '';
+        position: absolute;
+        bottom: 4px;
+        width: 24px;
+        height: 3px;
+        background: #000;
+      }
     }
   }
 
   li:nth-child(even) div {
-    left: -464px;
-    margin: 0;
+    left: -488px;
+    
+    &::before {
+      right: -24px;
+    }
+  }
+
+  li:nth-child(odd) div {
+    margin-left: 24px;  
+      
+    &::before {
+      left: -24px;
+    }
   }
 `;
