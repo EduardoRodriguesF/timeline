@@ -65,4 +65,30 @@ export const Container = styled.li`
       left: -24px;
     }
   }
+
+  @media screen and (max-width: 1024px) {
+    > div {
+      width: 250px;
+    }
+
+    &:nth-child(even) > div {
+      left: -334px;
+    }
+  }
+
+  @media screen and (max-width: 760px) {
+    margin-left: 20px;
+
+    > div {
+      width: calc(100vw - 148px);
+    }
+
+    &:nth-child(even) > div {
+      left: 24px;
+    }
+
+    &:nth-child(even) > div::before {
+      left: -24px;
+    }
+  }
 `;
