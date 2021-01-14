@@ -3,5 +3,10 @@
     "title": "Infocurso",
     "date": "2018 - 2019",
     "text": "This was not my first contact with programming, but represents the time I decided to take it seriously as my career. Although being mainly fundamentals on HTML and CSS, it also taught me about Adobe Photoshop and Google Webdesign (besides I don't use it daily)."
+  },
+  {
+    "title": "GoStack",
+    "date": "2020",
+    "text": "As I continued to study more and more, exploring all sorts of courses via Udemy and other websites like that, I ended up participating on Next Level Week #3, where I developed a simple orphanage finding page called Happy."
   }
 ]

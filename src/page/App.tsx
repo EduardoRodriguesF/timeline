@@ -23,7 +23,15 @@ const App: React.FC = () => {
     <Container>
       <Timeline>
           <ul>
-            {passages && passages.map(passage => <TimePassage>{passage.text}</TimePassage>)}
+            {passages && passages.map(passage => (
+              <TimePassage>
+                <div>
+                  <h2>{passage.title}</h2>
+                  <span>{passage.date}</span>
+                  <p>{passage.text}</p>
+                </div>
+              </TimePassage>
+            ))}
           </ul>
       </Timeline>
     </Container>

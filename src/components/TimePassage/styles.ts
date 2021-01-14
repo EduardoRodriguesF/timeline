@@ -20,14 +20,25 @@ export const Container = styled.li`
     background: inherit;
   }
 
-  div { 
+  > div { 
     display: flex;
     flex-direction: column;
     justify-content: center;
     position: relative; 
     width: 400px;
     padding: 15px 32px;
-    background: #888;
+    background: #0d5599;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+
+    h2 {
+      line-height: 0.2;
+    }
+
+    p {
+      margin-top: 18px;
+      text-align: justify;
+    }
 
     &::before {
       content: '';
@@ -39,7 +50,7 @@ export const Container = styled.li`
     }
   }
 
-  &:nth-child(even) div {
+  &:nth-child(even) > div {
     left: -488px;
     
     &::before {
@@ -47,7 +58,7 @@ export const Container = styled.li`
     }
   }
 
-  &:nth-child(odd) div {
+  &:nth-child(odd) > div {
     margin-left: 24px;  
       
     &::before {
