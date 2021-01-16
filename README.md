@@ -1,4 +1,4 @@
-# Timeline
+# Timeline With ReactJS
 
 An idea I wanna test out to use on my main website later.
 
