@@ -5,8 +5,7 @@ export const Container = styled.li`
   position: relative;
   width: 5px;
   padding-top: 64px;
-  background: #000;
-  color: #fff;
+  background: #0070F3;
 
   &::after {
     content: '';
@@ -14,8 +13,8 @@ export const Container = styled.li`
     left: 50%;
     bottom: -1px;
     transform: translateX(-50%);
-    width: 12px;
-    height: 12px;
+    width: 14px;
+    height: 14px;
     border-radius: 15px;
     background: inherit;
   }
@@ -27,9 +26,10 @@ export const Container = styled.li`
     position: relative; 
     width: 400px;
     padding: 15px 32px;
-    background: #0d5599;
+    background: #fff;
+    border: 2px solid #0070F3;
     font-family: Arial, Helvetica, sans-serif;
-    color: #fff;
+    color: #000;
 
     h2 {
       line-height: 0.2;
@@ -45,8 +45,8 @@ export const Container = styled.li`
       position: absolute;
       bottom: 3px;
       width: 24px;
-      height: 3px;
-      background: #000;
+      height: 2px;
+      background: #0070F3;
     }
   }
 
