@@ -6,4 +6,4 @@ Inspiration: https://codepen.io/tutsplus/pen/QNeJgR
 
 ## Planned features
 
-- [] Timeline ramification (for multiple events in same period)
+- [ ] Timeline ramification (for multiple events in same period)
